@@ -1,0 +1,50 @@
+.logo{
+    border: 1px solid red;
+}
+/* Navbar.css */
+.NavLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .NavLinks a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  
+  .NavLinks a:hover {
+    color: #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .NavLinks {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #333;
+    }
+  
+    .NavLinks a {
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .Hamburger {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+    .Hamburger span {
+      height: 2px;
+      width: 25px;
+      background: #fff;
+      margin-bottom: 4px;
+    }
+  }
+  
